@@ -71,11 +71,11 @@ const CatalogViewer = () => {
   };
 
   return (
-    <Container>
-      <Row>
-        <Col sm={8}>
+    <Container  fluid>
+      <Row className=''>
+        <Col sm={8} className='justify-content-evenly'>
           <div style={{ position: 'relative' }}>
-            <Image src={activeImage.src} className=' rounded-3' fluid />
+            <Image src={activeImage.src} className=' rounded-3' fluid  />
             {slideshowActive && (
               <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
                 <Spinner animation="grow" size="lg" />
@@ -99,7 +99,7 @@ const CatalogViewer = () => {
       </Col>
       </Row>
       <Row>
-      <Col sm={4}>
+      <Col sm={6}>
        
         <div  className='d-flex'>
           {images.map((image) => (
