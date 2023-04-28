@@ -1,8 +1,9 @@
 # Fotely Assignment for Front End Developer
 
 ## 🔗 Links
+### Implement a catalog viewer for a collection of images.
 ### ReactJs , TypeScript , Material UI
-> ## Checkout the website link : 
+> ## Checkout the website link : https://catalog-viewer-fotoley.netlify.app/
 
 
 # Getting Started with Create React App
