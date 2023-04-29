@@ -7,9 +7,9 @@ import CatalogViewer from './components/CatalogViewer';
 function App() {
   return (
     <>
-     <div className="App">
+     {/* <div className="App">
        <h1>Catalog Viewer</h1>
-    </div>
+    </div> */}
     {/* <NavBar />
     <HeroSection /> */}
     <CatalogViewer />
